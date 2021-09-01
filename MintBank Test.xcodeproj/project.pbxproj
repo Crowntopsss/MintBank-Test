@@ -3,18 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D15CDB1626DF7521000C27C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB1526DF7521000C27C6 /* AppDelegate.swift */; };
-		D15CDB1826DF7521000C27C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB1726DF7521000C27C6 /* SceneDelegate.swift */; };
-		D15CDB1A26DF7521000C27C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB1926DF7521000C27C6 /* ViewController.swift */; };
-		D15CDB1D26DF7521000C27C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB1B26DF7521000C27C6 /* Main.storyboard */; };
-		D15CDB1F26DF7526000C27C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB1E26DF7526000C27C6 /* Assets.xcassets */; };
+		66FFD2C0B4A996F3EB8E61CA /* Pods_MintBank_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82E6C37D96B4E505E44F03 /* Pods_MintBank_Test.framework */; };
+		69554A8D74971BB6AC40D8D1 /* Pods_MintBank_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30748D14514C63DC6E383FA1 /* Pods_MintBank_TestTests.framework */; };
+		90A59B4C954E365B67B3D7D3 /* Pods_MintBank_Test_MintBank_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14F14629E51123AEC4B3B9E /* Pods_MintBank_Test_MintBank_TestUITests.framework */; };
 		D15CDB2226DF7526000C27C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB2026DF7526000C27C6 /* LaunchScreen.storyboard */; };
 		D15CDB2D26DF7526000C27C6 /* MintBank_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB2C26DF7526000C27C6 /* MintBank_TestTests.swift */; };
 		D15CDB3826DF7526000C27C6 /* MintBank_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB3726DF7526000C27C6 /* MintBank_TestUITests.swift */; };
+		D15CDB5926DF7640000C27C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4626DF763F000C27C6 /* ViewController.swift */; };
+		D15CDB5A26DF7640000C27C6 /* LegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4726DF763F000C27C6 /* LegalViewController.swift */; };
+		D15CDB5B26DF7640000C27C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4826DF763F000C27C6 /* HomeViewController.swift */; };
+		D15CDB5C26DF7640000C27C6 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4926DF763F000C27C6 /* SystemViewController.swift */; };
+		D15CDB5D26DF7640000C27C6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4A26DF763F000C27C6 /* TabBarViewController.swift */; };
+		D15CDB5E26DF7640000C27C6 /* UiView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4C26DF763F000C27C6 /* UiView+Extension.swift */; };
+		D15CDB5F26DF7640000C27C6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4D26DF763F000C27C6 /* UIViewController+Extension.swift */; };
+		D15CDB6026DF7640000C27C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB4E26DF763F000C27C6 /* SceneDelegate.swift */; };
+		D15CDB6126DF7640000C27C6 /* Legal3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB5026DF763F000C27C6 /* Legal3ViewController.swift */; };
+		D15CDB6226DF7640000C27C6 /* Legal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB5126DF763F000C27C6 /* Legal2ViewController.swift */; };
+		D15CDB6326DF7640000C27C6 /* Lega1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB5226DF763F000C27C6 /* Lega1ViewController.swift */; };
+		D15CDB6426DF7640000C27C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB5326DF763F000C27C6 /* Assets.xcassets */; };
+		D15CDB6626DF7640000C27C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB5526DF763F000C27C6 /* AppDelegate.swift */; };
+		D15CDB6726DF7640000C27C6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB5726DF763F000C27C6 /* Utils.swift */; };
+		D15CDB6826DF7640000C27C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB5826DF7640000C27C6 /* Main.storyboard */; };
+		D15CDB6C26DF924A000C27C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB6B26DF924A000C27C6 /* README.md */; };
+		D15CDB6E26DF95C5000C27C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CDB6D26DF95C5000C27C6 /* SettingsViewController.swift */; };
+		D15CDB7226DF993A000C27C6 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB6F26DF9938000C27C6 /* img2.png */; };
+		D15CDB7326DF993A000C27C6 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB7026DF9939000C27C6 /* img3.png */; };
+		D15CDB7426DF993A000C27C6 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = D15CDB7126DF993A000C27C6 /* img1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05907EE6208E02BFFF2CEF49 /* Pods-MintBank Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintBank Test.release.xcconfig"; path = "Target Support Files/Pods-MintBank Test/Pods-MintBank Test.release.xcconfig"; sourceTree = "<group>"; };
+		16E074129EAB3D724D8041B5 /* Pods-MintBank TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintBank TestTests.debug.xcconfig"; path = "Target Support Files/Pods-MintBank TestTests/Pods-MintBank TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30748D14514C63DC6E383FA1 /* Pods_MintBank_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintBank_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B827398CB45C09F083BF2C1 /* Pods-MintBank Test-MintBank TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintBank Test-MintBank TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MintBank Test-MintBank TestUITests/Pods-MintBank Test-MintBank TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F82E6C37D96B4E505E44F03 /* Pods_MintBank_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintBank_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A62B0E48DFF1A96B3C2F8B9 /* Pods-MintBank Test-MintBank TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintBank Test-MintBank TestUITests.release.xcconfig"; path = "Target Support Files/Pods-MintBank Test-MintBank TestUITests/Pods-MintBank Test-MintBank TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7471DAF4EE30C6F40F3B0460 /* Pods-MintBank Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintBank Test.debug.xcconfig"; path = "Target Support Files/Pods-MintBank Test/Pods-MintBank Test.debug.xcconfig"; sourceTree = "<group>"; };
+		A14F14629E51123AEC4B3B9E /* Pods_MintBank_Test_MintBank_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintBank_Test_MintBank_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15CDB1226DF7521000C27C6 /* MintBank Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MintBank Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15CDB1526DF7521000C27C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D15CDB1726DF7521000C27C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D15CDB1926DF7521000C27C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D15CDB1C26DF7521000C27C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D15CDB1E26DF7526000C27C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15CDB2126DF7526000C27C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15CDB2326DF7526000C27C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D15CDB2826DF7526000C27C6 /* MintBank TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MintBank TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +70,27 @@
 		D15CDB3326DF7526000C27C6 /* MintBank TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MintBank TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15CDB3726DF7526000C27C6 /* MintBank_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintBank_TestUITests.swift; sourceTree = "<group>"; };
 		D15CDB3926DF7526000C27C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15CDB4626DF763F000C27C6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D15CDB4726DF763F000C27C6 /* LegalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalViewController.swift; sourceTree = "<group>"; };
+		D15CDB4826DF763F000C27C6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D15CDB4926DF763F000C27C6 /* SystemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		D15CDB4A26DF763F000C27C6 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D15CDB4C26DF763F000C27C6 /* UiView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiView+Extension.swift"; sourceTree = "<group>"; };
+		D15CDB4D26DF763F000C27C6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D15CDB4E26DF763F000C27C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D15CDB5026DF763F000C27C6 /* Legal3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legal3ViewController.swift; sourceTree = "<group>"; };
+		D15CDB5126DF763F000C27C6 /* Legal2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legal2ViewController.swift; sourceTree = "<group>"; };
+		D15CDB5226DF763F000C27C6 /* Lega1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lega1ViewController.swift; sourceTree = "<group>"; };
+		D15CDB5326DF763F000C27C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D15CDB5526DF763F000C27C6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D15CDB5726DF763F000C27C6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D15CDB5826DF7640000C27C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D15CDB6B26DF924A000C27C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D15CDB6D26DF95C5000C27C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D15CDB6F26DF9938000C27C6 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
+		D15CDB7026DF9939000C27C6 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
+		D15CDB7126DF993A000C27C6 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		D327284C6429148C7200B747 /* Pods-MintBank TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintBank TestTests.release.xcconfig"; path = "Target Support Files/Pods-MintBank TestTests/Pods-MintBank TestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FFD2C0B4A996F3EB8E61CA /* Pods_MintBank_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69554A8D74971BB6AC40D8D1 /* Pods_MintBank_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +114,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A59B4C954E365B67B3D7D3 /* Pods_MintBank_Test_MintBank_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		934AA0C3F8B741A39F157C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F82E6C37D96B4E505E44F03 /* Pods_MintBank_Test.framework */,
+				A14F14629E51123AEC4B3B9E /* Pods_MintBank_Test_MintBank_TestUITests.framework */,
+				30748D14514C63DC6E383FA1 /* Pods_MintBank_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D21F733006B1C965D83B0E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7471DAF4EE30C6F40F3B0460 /* Pods-MintBank Test.debug.xcconfig */,
+				05907EE6208E02BFFF2CEF49 /* Pods-MintBank Test.release.xcconfig */,
+				4B827398CB45C09F083BF2C1 /* Pods-MintBank Test-MintBank TestUITests.debug.xcconfig */,
+				5A62B0E48DFF1A96B3C2F8B9 /* Pods-MintBank Test-MintBank TestUITests.release.xcconfig */,
+				16E074129EAB3D724D8041B5 /* Pods-MintBank TestTests.debug.xcconfig */,
+				D327284C6429148C7200B747 /* Pods-MintBank TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D15CDB0926DF7521000C27C6 = {
 			isa = PBXGroup;
 			children = (
+				D15CDB7126DF993A000C27C6 /* img1.png */,
+				D15CDB6F26DF9938000C27C6 /* img2.png */,
+				D15CDB7026DF9939000C27C6 /* img3.png */,
+				D15CDB6B26DF924A000C27C6 /* README.md */,
 				D15CDB1426DF7521000C27C6 /* MintBank Test */,
 				D15CDB2B26DF7526000C27C6 /* MintBank TestTests */,
 				D15CDB3626DF7526000C27C6 /* MintBank TestUITests */,
 				D15CDB1326DF7521000C27C6 /* Products */,
+				9D21F733006B1C965D83B0E1 /* Pods */,
+				934AA0C3F8B741A39F157C4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +173,15 @@
 		D15CDB1426DF7521000C27C6 /* MintBank Test */ = {
 			isa = PBXGroup;
 			children = (
-				D15CDB1526DF7521000C27C6 /* AppDelegate.swift */,
-				D15CDB1726DF7521000C27C6 /* SceneDelegate.swift */,
-				D15CDB1926DF7521000C27C6 /* ViewController.swift */,
-				D15CDB1B26DF7521000C27C6 /* Main.storyboard */,
-				D15CDB1E26DF7526000C27C6 /* Assets.xcassets */,
 				D15CDB2026DF7526000C27C6 /* LaunchScreen.storyboard */,
+				D15CDB5526DF763F000C27C6 /* AppDelegate.swift */,
+				D15CDB5326DF763F000C27C6 /* Assets.xcassets */,
+				D15CDB4B26DF763F000C27C6 /* Extension */,
+				D15CDB4F26DF763F000C27C6 /* LegalVC */,
+				D15CDB5826DF7640000C27C6 /* Main.storyboard */,
+				D15CDB4E26DF763F000C27C6 /* SceneDelegate.swift */,
+				D15CDB5626DF763F000C27C6 /* Support */,
+				D15CDB4526DF763F000C27C6 /* VC */,
 				D15CDB2326DF7526000C27C6 /* Info.plist */,
 			);
 			path = "MintBank Test";
@@ -128,6 +205,46 @@
 			path = "MintBank TestUITests";
 			sourceTree = "<group>";
 		};
+		D15CDB4526DF763F000C27C6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D15CDB4626DF763F000C27C6 /* ViewController.swift */,
+				D15CDB4726DF763F000C27C6 /* LegalViewController.swift */,
+				D15CDB4826DF763F000C27C6 /* HomeViewController.swift */,
+				D15CDB4926DF763F000C27C6 /* SystemViewController.swift */,
+				D15CDB4A26DF763F000C27C6 /* TabBarViewController.swift */,
+				D15CDB6D26DF95C5000C27C6 /* SettingsViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D15CDB4B26DF763F000C27C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D15CDB4C26DF763F000C27C6 /* UiView+Extension.swift */,
+				D15CDB4D26DF763F000C27C6 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D15CDB4F26DF763F000C27C6 /* LegalVC */ = {
+			isa = PBXGroup;
+			children = (
+				D15CDB5026DF763F000C27C6 /* Legal3ViewController.swift */,
+				D15CDB5126DF763F000C27C6 /* Legal2ViewController.swift */,
+				D15CDB5226DF763F000C27C6 /* Lega1ViewController.swift */,
+			);
+			path = LegalVC;
+			sourceTree = "<group>";
+		};
+		D15CDB5626DF763F000C27C6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D15CDB5726DF763F000C27C6 /* Utils.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15CDB3C26DF7526000C27C6 /* Build configuration list for PBXNativeTarget "MintBank Test" */;
 			buildPhases = (
+				A94E0C74C20E14F1A31B2BBC /* [CP] Check Pods Manifest.lock */,
 				D15CDB0E26DF7521000C27C6 /* Sources */,
 				D15CDB0F26DF7521000C27C6 /* Frameworks */,
 				D15CDB1026DF7521000C27C6 /* Resources */,
+				C5212B283004C65D361C63E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15CDB3F26DF7526000C27C6 /* Build configuration list for PBXNativeTarget "MintBank TestTests" */;
 			buildPhases = (
+				33CBEAC6090963B389873BB8 /* [CP] Check Pods Manifest.lock */,
 				D15CDB2426DF7526000C27C6 /* Sources */,
 				D15CDB2526DF7526000C27C6 /* Frameworks */,
 				D15CDB2626DF7526000C27C6 /* Resources */,
@@ -170,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15CDB4226DF7526000C27C6 /* Build configuration list for PBXNativeTarget "MintBank TestUITests" */;
 			buildPhases = (
+				C7EF2FC1C5AF8313BD66FDAE /* [CP] Check Pods Manifest.lock */,
 				D15CDB2F26DF7526000C27C6 /* Sources */,
 				D15CDB3026DF7526000C27C6 /* Frameworks */,
 				D15CDB3126DF7526000C27C6 /* Resources */,
+				8859380EE6B6BC7B1A078443 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +317,7 @@
 				TargetAttributes = {
 					D15CDB1126DF7521000C27C6 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					D15CDB2726DF7526000C27C6 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -231,9 +354,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15CDB6426DF7640000C27C6 /* Assets.xcassets in Resources */,
+				D15CDB7226DF993A000C27C6 /* img2.png in Resources */,
+				D15CDB7426DF993A000C27C6 /* img1.png in Resources */,
+				D15CDB7326DF993A000C27C6 /* img3.png in Resources */,
 				D15CDB2226DF7526000C27C6 /* LaunchScreen.storyboard in Resources */,
-				D15CDB1F26DF7526000C27C6 /* Assets.xcassets in Resources */,
-				D15CDB1D26DF7521000C27C6 /* Main.storyboard in Resources */,
+				D15CDB6C26DF924A000C27C6 /* README.md in Resources */,
+				D15CDB6826DF7640000C27C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +380,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33CBEAC6090963B389873BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintBank TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8859380EE6B6BC7B1A078443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintBank Test-MintBank TestUITests/Pods-MintBank Test-MintBank TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintBank Test-MintBank TestUITests/Pods-MintBank Test-MintBank TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintBank Test-MintBank TestUITests/Pods-MintBank Test-MintBank TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94E0C74C20E14F1A31B2BBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintBank Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5212B283004C65D361C63E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintBank Test/Pods-MintBank Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintBank Test/Pods-MintBank Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintBank Test/Pods-MintBank Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7EF2FC1C5AF8313BD66FDAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintBank Test-MintBank TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D15CDB0E26DF7521000C27C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15CDB1A26DF7521000C27C6 /* ViewController.swift in Sources */,
-				D15CDB1626DF7521000C27C6 /* AppDelegate.swift in Sources */,
-				D15CDB1826DF7521000C27C6 /* SceneDelegate.swift in Sources */,
+				D15CDB6626DF7640000C27C6 /* AppDelegate.swift in Sources */,
+				D15CDB5A26DF7640000C27C6 /* LegalViewController.swift in Sources */,
+				D15CDB5C26DF7640000C27C6 /* SystemViewController.swift in Sources */,
+				D15CDB6126DF7640000C27C6 /* Legal3ViewController.swift in Sources */,
+				D15CDB6226DF7640000C27C6 /* Legal2ViewController.swift in Sources */,
+				D15CDB6726DF7640000C27C6 /* Utils.swift in Sources */,
+				D15CDB5926DF7640000C27C6 /* ViewController.swift in Sources */,
+				D15CDB6326DF7640000C27C6 /* Lega1ViewController.swift in Sources */,
+				D15CDB5D26DF7640000C27C6 /* TabBarViewController.swift in Sources */,
+				D15CDB6E26DF95C5000C27C6 /* SettingsViewController.swift in Sources */,
+				D15CDB5F26DF7640000C27C6 /* UIViewController+Extension.swift in Sources */,
+				D15CDB5E26DF7640000C27C6 /* UiView+Extension.swift in Sources */,
+				D15CDB5B26DF7640000C27C6 /* HomeViewController.swift in Sources */,
+				D15CDB6026DF7640000C27C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +537,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D15CDB1B26DF7521000C27C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D15CDB1C26DF7521000C27C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D15CDB2026DF7526000C27C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,9 +666,11 @@
 		};
 		D15CDB3D26DF7526000C27C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7471DAF4EE30C6F40F3B0460 /* Pods-MintBank Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRXPRG4CQ7;
 				INFOPLIST_FILE = "MintBank Test/Info.plist";
@@ -445,6 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "deeppro.ai.MintBank-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,9 +688,11 @@
 		};
 		D15CDB3E26DF7526000C27C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05907EE6208E02BFFF2CEF49 /* Pods-MintBank Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRXPRG4CQ7;
 				INFOPLIST_FILE = "MintBank Test/Info.plist";
@@ -471,6 +709,7 @@
 		};
 		D15CDB4026DF7526000C27C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E074129EAB3D724D8041B5 /* Pods-MintBank TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +732,7 @@
 		};
 		D15CDB4126DF7526000C27C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D327284C6429148C7200B747 /* Pods-MintBank TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +755,7 @@
 		};
 		D15CDB4326DF7526000C27C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B827398CB45C09F083BF2C1 /* Pods-MintBank Test-MintBank TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +776,7 @@
 		};
 		D15CDB4426DF7526000C27C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A62B0E48DFF1A96B3C2F8B9 /* Pods-MintBank Test-MintBank TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

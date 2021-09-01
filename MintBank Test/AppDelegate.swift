@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MintBank Test
+//  Mint
 //
-//  Created by Temitope on 01/09/2021.
+//  Created by Temitope on 31/08/2021.
 //
 
 import UIKit
@@ -13,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         return true
     }
 

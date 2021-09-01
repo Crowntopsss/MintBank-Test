@@ -1,0 +1,22 @@
+PODS:
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - FMSecureTextField (1.0.0)
+
+DEPENDENCIES:
+  - FlagPhoneNumber
+  - FMSecureTextField
+
+SPEC REPOS:
+  trunk:
+    - FlagPhoneNumber
+    - FMSecureTextField
+
+SPEC CHECKSUMS:
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  FMSecureTextField: 22312d628afe7a97b50682c6708c01ecf37087d5
+
+PODFILE CHECKSUM: da28294be85559f6977ea3cff8c6cdf475776cfc
+
+COCOAPODS: 1.10.1
